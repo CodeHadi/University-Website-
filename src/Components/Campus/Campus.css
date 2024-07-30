@@ -1,0 +1,39 @@
+.campus{
+    margin: 80px auto;
+    width: 90%;
+    text-align: center;
+}
+.gallery{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px;
+}
+
+
+.gallery img{
+    width: 23%;
+    border-radius: 10px;
+}
+.btn.dark-btn{
+    background: #2121A0;
+    color: #fff;
+}
+
+.btn .btnimg{
+    width: 20px;
+    margin-left: 10px;
+}
+
+/* Media Query */
+
+@media (max-width:800px) {
+    .gallery{
+        flex-wrap: wrap;
+    }
+    .gallery img{
+     width: 35%;
+     margin: 0 0 30px 0;
+    }
+    
+}
